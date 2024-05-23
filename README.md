@@ -1,6 +1,6 @@
 This isn't like your typical game of duck, duck, goose. Batch Assigner randomly assigns samples with different types of classifications equally into batches. 
 This project started when I had 106 samples to process with different classifications "old_high", "old_low", and "young". The classifications were all out of 
-order, which made it difficult to assign the samples into three batches, so that an individual classification had an even number of samples in each batch. Batch 
+order, which made it difficult to assign the samples into three batches, so that an individual classification had an equal number of samples in each batch. Batch 
 Assigner did this all seamlessly and even made the experiment more unbiased by assigning batches with the original sample order randomized. Batch Assigner 
 can also be used to reassign teams of people into new teams, among many other applications. It's utility arises from two issues that make traditional batch 
 assignment (1, 2, 3, 1, 2, 3...) difficult:
